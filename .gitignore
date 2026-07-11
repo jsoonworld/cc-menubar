@@ -1,0 +1,7 @@
+.build/
+*.o
+*.swiftmodule
+.DS_Store
+cc-menubar
+cc-menubar.log
+cc-menubar.error.log

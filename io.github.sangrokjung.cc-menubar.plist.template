@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>io.github.sangrokjung.cc-menubar</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>__INSTALL_DIR__/cc-menubar</string>
+    </array>
+
+    <!-- start on login -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- restart if it crashes -->
+    <key>KeepAlive</key>
+    <true/>
+
+    <!-- stdout / stderr logs -->
+    <key>StandardOutPath</key>
+    <string>__INSTALL_DIR__/cc-menubar.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>__INSTALL_DIR__/cc-menubar.error.log</string>
+
+    <!-- environment (Homebrew + npx/ccusage need to be on PATH; add
+         TEAMCLAUDE_LAUNCHD_LABEL here if you run the teamclaude proxy under launchd) -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+</dict>
+</plist>
