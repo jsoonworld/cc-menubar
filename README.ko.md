@@ -23,6 +23,11 @@
 </p>
 
 <p align="center">
+  <img src="docs/dashboard.png" width="360"><br>
+  <sub>드롭다운: 사용량 대시보드. 14일 비용 차트, 일별 추이, 모델별 비용(Claude와 Codex 나란히)</sub>
+</p>
+
+<p align="center">
   <img src="docs/dropdown.png" width="360"><br>
   <sub>드롭다운: teamclaude 14계정 로테이션 현황과 Codex 사용량이 실시간으로</sub>
 </p>

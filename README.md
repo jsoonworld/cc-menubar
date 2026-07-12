@@ -23,6 +23,11 @@
 </p>
 
 <p align="center">
+  <img src="docs/dashboard.png" width="360"><br>
+  <sub>Dropdown — usage dashboard: 14-day cost chart, daily trend, and per-model spend (Claude + Codex side by side)</sub>
+</p>
+
+<p align="center">
   <img src="docs/dropdown.png" width="360"><br>
   <sub>Dropdown — live teamclaude account rotation (14 accounts) and Codex usage</sub>
 </p>

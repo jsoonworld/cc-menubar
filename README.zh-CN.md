@@ -23,6 +23,11 @@
 </p>
 
 <p align="center">
+  <img src="docs/dashboard.png" width="360"><br>
+  <sub>下拉面板：用量仪表盘。14 天费用图表、每日趋势、按模型的开销（Claude 与 Codex 并列）</sub>
+</p>
+
+<p align="center">
   <img src="docs/dropdown.png" width="360"><br>
   <sub>下拉面板：teamclaude 14 个账号的轮换状态与 Codex 用量，实时更新</sub>
 </p>
